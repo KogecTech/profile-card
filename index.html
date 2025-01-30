@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile Card</title>
+  <link rel="stylesheet" href="card.css">
+</head>
+<body>
+  <div class="profile-card">
+    <!-- Profile Picture -->
+    <img src="/public/IMG_9384.JPG" alt="Profile Picture" data-testid="profilePicture">
+
+    <!-- Full Name -->
+    <h2 data-testid="fullName">Okeowo Iyanuoluwa</h2>
+
+    <!-- Job Title -->
+    <p data-testid="jobTitle">Front-End Developer</p>
+
+    <!-- Short Bio -->
+    <p data-testid="shortBio">I'm a passionate front-end developer with a keen interest in building interactive and responsive websites. I enjoy problem-solving and learning new technologies.</p>
+
+    <!-- Current Location -->
+    <p data-testid="currentLocation">Lagos, Nigeria</p>
+
+    <!-- Email Address -->
+    <a href="mailto:iyanu455@gmail.com" data-testid="emailAddress">Send A Quick Message</a>
+
+    <!-- Social Links -->
+    <div data-testid="socialLinks">
+      <a href="https://github.com/KogecTech" target="_blank">GitHub</a>
+      <a href="https://x.com/khalifrtg" target="_blank">Twitter</a>
+    </div>
+
+    <!-- Current Time in UTC -->
+    <p data-testid="currentTimeUTC" id="time"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
